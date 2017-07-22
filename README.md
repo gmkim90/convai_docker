@@ -13,9 +13,11 @@ Install
 How to run
 
 1) (GPU version)
+
 sudo nvidia-docker run -w /app -p 1990:1990 -v /absolute_path/to/convai_docker:/app calee/kaib python run-demo-simple.py --use_gpu True
 
    (CPU version)
+   
 sudo nvidia-docker run -w /app -p 1990:1990 -v /absolute_path/to/convai_docker:/app calee/kaib python run-demo-simple.py 
 
 2) CC mode example
