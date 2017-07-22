@@ -6,7 +6,7 @@ Install
 2) download glove.840B.300d.txt (from http://nlp.stanford.edu/data/glove.840B.300d.zip) and put in data/glove.840B.300d.txt
 3) download model.zip extract it
     
-    source : google drive link ()
+    source : google drive link (https://drive.google.com/open?id=0BzxkVbZ3kJ_4SzFGdUJWTFYzaEE)
 
 4) install nvidia-docker ( https://github.com/NVIDIA/nvidia-docker)
 
