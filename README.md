@@ -12,7 +12,7 @@ Install
 
 How to run
 
-1) sudo nvidia-docker run -w /app -p 1990:1990 -v {/path/to/convai_docker}:/app calee/kaib python run-demo-simple.py  --> https server execution
+1) sudo nvidia-docker run -w /app -p 1990:1990 -v /absolute_path/to/convai_docker:/app calee/kaib python run-demo-simple.py  --> https server execution
 
 2) CC mode example
 python get_answer_cnsl.py --paragraph "dummy" --question "how old are you ?"
