@@ -13,5 +13,4 @@ if __name__ == '__main__':
         'http://0.0.0.0:1990/submit',
         params={'question': args.question, 'paragraph': args.paragraph})
 
-    print('our response = ')
     print(resp.text)
